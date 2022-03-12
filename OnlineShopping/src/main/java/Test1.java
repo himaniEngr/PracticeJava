@@ -12,6 +12,7 @@ public class Test1 {
 		WebDriver driver= new ChromeDriver();
 		
 		String url="https://www.youtube.com";
+		driver.manage().window().maximize();
 		driver.get(url);
 //		Thread.sleep(10000);
 		System.out.println(driver.getCurrentUrl());
